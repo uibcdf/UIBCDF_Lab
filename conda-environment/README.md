@@ -13,3 +13,5 @@ http://envs.anaconda.org/uibcdf
 
 conda env create uibcdf/uibcdf_lab
 source activate UIBCDF_Lab
+
+conda env update uibcdf/uibcdf_lab

@@ -1,7 +1,6 @@
 name: UIBCDF_Lab
 channels:
   - uibcdf/label/dev
-  - http://ambermd.org/downloads/ambertools/conda
   - uibcdf
   - conda-forge
   - omnia
@@ -107,7 +106,7 @@ dependencies:
   - mkl_fft=1.0.10=py37h14c3975_1
   - mkl_random=1.0.2=py37h637b7d7_2
   - mmtf-python=1.1.2=py_0
-  - molmodmt=0.0.2=py37h39e3cac_1
+  - molmodmt=0.0.2=py37h39e3cac_2
   - mpi=1.0=mpich
   - mpi4py=3.0.0=py37hf046da1_1004
   - mpich=3.2.1=h1c2f66e_1007
