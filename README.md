@@ -7,7 +7,17 @@ http://anaconda.org/uibcdf
 ### Environments
 http://envs.anaconda.org/uibcdf
 
+To interact with anaconda.org `anaconda-client` needs to be installed:
+
+```bash
+conda install anaconda-client
+```
+#### Channels set up
+
+
+
 #### Create UIBCDF_lab env
+
 ```bash
 conda env create uibcdf/uibcdf_lab
 ```
