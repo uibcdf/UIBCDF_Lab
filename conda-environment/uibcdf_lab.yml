@@ -13,7 +13,7 @@ dependencies:
   - asn1crypto=0.24.0=py37_1003
   - atk=2.25.90=hb9dd440_1002
   - atomicwrites=1.3.0=py_0
-  - attrs=18.2.0=py_0
+  - attrs=19.1.0=py_0
   - babel=2.6.0=py_1
   - backcall=0.1.0=py_0
   - biopython=1.73=py37h14c3975_0
@@ -25,20 +25,21 @@ dependencies:
   - cairo=1.16.0=ha4e643d_1000
   - cerberus=1.2=py_1
   - certifi=2018.11.29=py37_1000
-  - cffi=1.12.1=py37h9745a5d_0
+  - cffi=1.12.2=py37h9745a5d_0
   - cftime=1.0.3.4=py37h3010b51_1000
   - chardet=3.0.4=py37_1003
   - chembl_webresource_client=0.9.31=py37_0
   - clusterutils=0.3.1=py37_0
-  - coverage=4.5.2=py37h14c3975_1000
+  - coverage=4.5.2=py37h14c3975_1001
   - coveralls=1.5.1=py_0
   - cryptography=2.5=py37hb7f436b_1
   - cudatoolkit=10.0.130=0
   - curl=7.64.0=h646f8bb_0
   - cycler=0.10.0=py_1
-  - cython=0.29.5=py37hf484d3e_0
+  - cython=0.29.6=py37hf484d3e_0
   - dbus=1.13.0=h4e0c4b3_1000
   - decorator=4.3.2=py_0
+  - defusedxml=0.5.0=py_1
   - docopt=0.6.2=py_1
   - docutils=0.14=py37_1001
   - easydict=1.9=py_0
@@ -51,7 +52,7 @@ dependencies:
   - gettext=0.19.8.1=h9745a5d_1001
   - gevent=1.4.0=py37h14c3975_0
   - gevent-openssl=1.2=py37_0
-  - glib=2.58.2=hf63aee3_1001
+  - glib=2.58.3=hf63aee3_1001
   - gmp=6.1.2=hf484d3e_1000
   - gobject-introspection=1.58.2=py37h2da5eee_1000
   - graphite2=1.3.13=hf484d3e_1000
@@ -70,16 +71,16 @@ dependencies:
   - imagesize=1.1.0=py_0
   - intel-openmp=2019.1=144
   - ipykernel=5.1.0=py37h24bf2e0_1002
-  - ipython=7.2.0=py37h24bf2e0_1000
+  - ipython=7.3.0=py37h24bf2e0_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=7.4.2=py_0
-  - jedi=0.13.2=py37_1000
+  - jedi=0.13.3=py37_0
   - jinja2=2.10=py_1
   - joblib=0.13.2=py_0
   - jpeg=9c=h14c3975_1001
-  - jsonschema=3.0.0a3=py37_1000
+  - jsonschema=3.0.1=py37_0
   - jupyter=1.0.0=py_1
-  - jupyter_client=5.2.4=py_1
+  - jupyter_client=5.2.4=py_3
   - jupyter_console=6.0.0=py_0
   - jupyter_core=4.4.0=py_0
   - jupyterlab=0.35.4=py37_0
@@ -106,9 +107,9 @@ dependencies:
   - lz4=2.1.6=py37ha8eefa0_1000
   - lz4-c=1.8.1.2=0
   - lzo=2.10=h14c3975_1000
-  - markupsafe=1.1.0=py37h14c3975_1000
-  - matplotlib=3.0.2=py37_1002
-  - matplotlib-base=3.0.2=py37h167e16e_1002
+  - markupsafe=1.1.1=py37h14c3975_0
+  - matplotlib=3.0.3=py37_0
+  - matplotlib-base=3.0.3=py37h167e16e_0
   - mdanalysis=0.19.2=py37hf484d3e_1000
   - mdtraj=1.9.2=py37hff88cb2_1000
   - mistune=0.8.4=py37h14c3975_1000
@@ -119,25 +120,25 @@ dependencies:
   - molmodmt=0.0.3=py37h39e3cac_0
   - more-itertools=4.3.0=py37_1000
   - mpi=1.0=mpich
-  - mpi4py=3.0.0=py37hf046da1_1005
+  - mpi4py=3.0.1=py37hf046da1_0
   - mpich=3.2.1=h1c2f66e_1008
   - msgpack-python=0.6.1=py37h6bb024c_0
   - natsort=6.0.0=py_0
-  - nbconvert=5.3.1=py_1
+  - nbconvert=5.4.1=py_2
   - nbformat=4.4.0=py_1
   - ncurses=6.1=hf484d3e_1002
-  - netcdf4=1.4.2=py37had69b76_1001
+  - netcdf4=1.4.3=py37had69b76_0
   - networkx=2.2=py_1
-  - nglview=1.1.8=py_0
-  - notebook=5.7.4=py37_1000
+  - nglview=1.1.9=py_0
+  - notebook=5.7.5=py37_0
   - numexpr=2.6.9=py37h637b7d7_1000
-  - numpy=1.15.4=py37h7e9f1db_0
-  - numpy-base=1.15.4=py37hde5b4d6_0
+  - numpy=1.16.2=py37h7e9f1db_0
+  - numpy-base=1.16.2=py37hde5b4d6_0
   - numpydoc=0.8.0=py_1
   - openmm=7.3.0=py37_cuda92_rc_1
   - openmmtools=0.17.0=py37_0
   - openmoltools=0.8.3=py37_1
-  - openssl=1.0.2p=h14c3975_1002
+  - openssl=1.0.2r=h14c3975_0
   - oset=0.1.3=py_1
   - packaging=19.0=py_0
   - pandas=0.24.1=py37hf484d3e_0
@@ -151,14 +152,14 @@ dependencies:
   - pdbfixer=1.5=py37h39e3cac_0
   - pexpect=4.6.0=py37_1000
   - pickleshare=0.7.5=py37_1000
-  - pip=19.0.2=py37_0
+  - pip=19.0.3=py37_0
   - pixman=0.34.0=h14c3975_1003
-  - pluggy=0.8.1=py_0
-  - prometheus_client=0.5.0=py_0
-  - prompt_toolkit=2.0.8=py_0
+  - pluggy=0.9.0=py_0
+  - prometheus_client=0.6.0=py_0
+  - prompt_toolkit=2.0.9=py_0
   - pthread-stubs=0.4=h14c3975_1001
   - ptyprocess=0.6.0=py37_1000
-  - py=1.7.0=py_0
+  - py=1.8.0=py_0
   - pybtex=0.22.2=py37_0
   - pybtex-docutils=0.2.1=py37_1000
   - pycparser=2.19=py_0
@@ -167,17 +168,17 @@ dependencies:
   - pyopenssl=19.0.0=py37_0
   - pyparsing=2.3.1=py_0
   - pyqt=5.6.0=py37h13b7fb3_1008
-  - pyrsistent=0.14.10=py37h14c3975_0
+  - pyrsistent=0.14.11=py37h14c3975_0
   - pysocks=1.6.8=py37_1002
   - pytables=3.4.4=py37h5d69a80_1004
-  - pytest=4.2.1=py37_0
+  - pytest=4.3.0=py37_0
   - pytest-cov=2.6.1=py_0
   - python=3.7.1=hd21baee_1001
   - python-dateutil=2.8.0=py_0
   - pytools_uibcdf=0.0.1=py37_1
   - pytz=2018.9=py_0
   - pyyaml=3.13=py37h14c3975_1001
-  - pyzmq=17.1.2=py37h6afc9c9_1001
+  - pyzmq=18.0.1=py37h0e1adb2_0
   - qt=5.6.2=hce4f676_1013
   - qtconsole=4.4.3=py_0
   - readline=7.0=hf8c457e_1001
@@ -185,7 +186,7 @@ dependencies:
   - requests-cache=0.4.13=py_1
   - sabueso=0.0.1=py37h39e3cac_0
   - scikit-learn=0.20.2=py37hd81dba3_0
-  - scipy=1.2.0=py37h7c811a0_0
+  - scipy=1.2.1=py37h7c811a0_0
   - seaborn=0.9.0=py_0
   - send2trash=1.5.0=py_0
   - setuptools=40.8.0=py37_0
@@ -200,13 +201,13 @@ dependencies:
   - terminado=0.8.1=py37_1001
   - testpath=0.4.2=py37_1000
   - tk=8.6.9=h84994c4_1000
-  - tornado=5.1.1=py37h14c3975_1000
+  - tornado=6.0.1=py37h14c3975_0
   - traitlets=4.3.2=py37_1000
   - unittest2six=0.0.0=py37_0
   - urllib3=1.24.1=py37_1000
   - wcwidth=0.1.7=py_1
   - webencodings=0.5.1=py_1
-  - wheel=0.33.0=py37_0
+  - wheel=0.33.1=py37_0
   - widgetsnbextension=3.4.2=py37_1000
   - xmltodict=0.12.0=py_0
   - xorg-kbproto=1.0.7=h14c3975_1002
@@ -227,3 +228,4 @@ dependencies:
   - zeromq=4.2.5=hf484d3e_1006
   - zlib=1.2.11=h14c3975_1004
   - zstd=1.3.8=h7510944_1002
+  - pip:
