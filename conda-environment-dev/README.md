@@ -5,8 +5,8 @@ We remove those packages installed manually.
 
 ```bash
 conda env export -n UIBCDF_lab_dev -f uibcdf_lab_dev.yml
-head -n -1 uibcdf_lab_dev.yml > tmp.yml
-sed -i '/pyrosetta/d' tmp.yml
+sed -i '/prefix/d' uibcdf_lab_dev.yml
+sed -i '/pyrosetta/d' uibcdf_lab_dev.yml
 mv tmp.yml uibcdf_lab_dev.yml
 ```
 
