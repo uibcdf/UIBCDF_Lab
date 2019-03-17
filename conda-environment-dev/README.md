@@ -4,7 +4,7 @@ The list of packages is saved in a file.
 We remove those packages installed manually.
 
 ```bash
-conda env export -n UIBCDF_lab -f uibcdf_lab_dev.yml
+conda env export -n UIBCDF_lab_dev -f uibcdf_lab_dev.yml
 head -n -1 uibcdf_lab_dev.yml > tmp.yml
 sed -i '/pyrosetta/d' tmp.yml
 mv tmp.yml uibcdf_lab_dev.yml
