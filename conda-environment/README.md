@@ -7,6 +7,7 @@ We remove those packages installed manually.
 conda env export -n UIBCDF_lab -f uibcdf_lab.yml
 sed -i '/prefix/d' uibcdf_lab.yml
 sed -i '/pyrosetta/d' uibcdf_lab.yml
+sed -i '/pymol-open-source/d' uibcdf_lab.yml
 ```
 
 The list is uploaded to anaconda
