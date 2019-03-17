@@ -7,7 +7,6 @@ We remove those packages installed manually.
 conda env export -n UIBCDF_lab_dev -f uibcdf_lab_dev.yml
 sed -i '/prefix/d' uibcdf_lab_dev.yml
 sed -i '/pyrosetta/d' uibcdf_lab_dev.yml
-mv tmp.yml uibcdf_lab_dev.yml
 ```
 
 The list is uploaded to anaconda

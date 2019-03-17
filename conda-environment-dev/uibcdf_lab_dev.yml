@@ -234,4 +234,3 @@ dependencies:
   - zlib=1.2.11=h14c3975_1004
   - zstd=1.3.8=h7510944_1002
   - pip:
-    - pyrosetta==2019.9+release.0f644e4
